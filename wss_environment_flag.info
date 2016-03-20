@@ -1,0 +1,12 @@
+name = WSS Environment Flag
+description = Identifies the environment (Devlopment, Test or Production) and changes the admin toolbar accordingly
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = ctools
+dependencies[] = environment_indicator
+features[ctools][] = environment_indicator:default_environment_indicator_environments:1
+features[environment_indicator_environment][] = production_environment
+features[environment_indicator_environment][] = test_environment
+features[features_api][] = api:2
+project path = downloads

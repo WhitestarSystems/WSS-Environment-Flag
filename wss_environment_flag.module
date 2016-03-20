@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WSS Environment Flag feature.
+ */
+
+include_once 'wss_environment_flag.features.inc';
